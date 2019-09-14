@@ -1,0 +1,29 @@
+{
+  "name": "webpack-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prasadrajandran/webpack-template.git"
+  },
+  "author": "Prasad Rajandran",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prasadrajandran/webpack-template/issues"
+  },
+  "homepage": "https://github.com/prasadrajandran/webpack-template#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "to-string-loader": "^1.1.5",
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
